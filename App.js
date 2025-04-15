@@ -6,7 +6,7 @@ const port = 3000
  
 app.get("/", (req, res, next) => {
     console.log("I received a get request on the path // ")
-    res.send("<h2>Acknowledged</h2>")
+    res.send("<h1>Acknowledged</h1>")
    
 })
  
@@ -16,4 +16,4 @@ app.get("/", (req, res, next) => {
  
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
-})
+}) 
