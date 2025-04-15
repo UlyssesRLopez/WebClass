@@ -1,4 +1,4 @@
-console.log("Application is starting");
+console.log("Application is starting!!!");
  
 const express = require('express')
 const app = express()
@@ -6,7 +6,7 @@ const port = 3000
  
 app.get("/", (req, res, next) => {
     console.log("I received a get request on the path // ")
-    res.send("<h1>xAcknowledgedx</h1>")
+    res.send("<h2>Acknowledged</h2>")
    
 })
  
