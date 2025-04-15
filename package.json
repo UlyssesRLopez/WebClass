@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/UlyssesRLopez/WebClass/issues"
   },
-  "homepage": "https://github.com/UlyssesRLopez/WebClass#readme"
+  "homepage": "https://github.com/UlyssesRLopez/WebClass#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
